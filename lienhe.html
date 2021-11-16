@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Gerphaton Gold</title>
+	<link rel="stylesheet" href="./css/bootstrap.css" />
+	<link rel="stylesheet" href="./css/all.min.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body style="display: block">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="./index.html">
+			<img src="./img/logo-itppharma.png" />
+		</a>
+		<div class="d-flex align-items-center">
+			<div class="dropdown dropdown-mobile">
+				<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+					aria-expanded="false">
+					<img src="./img/vietnam-flag.png" />
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/vietnam-flag.png" />
+							<span>Tiếng Việt</span>
+						</a>
+					</li>
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/germany.svg" />
+							<span>Tiếng Đức</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<button id="default" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars text-dark"></i>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav m-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="./index.html">TRANG CHỦ</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./gioithieu.html">GIỚI THIỆU</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./cauhoi.html">CÂU HỎI THƯỜNG GẶP</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./blog.html">KIẾN THỨC SỨC KHỎE</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="./lienhe.html">LIÊN HỆ</a>
+				</li>
+				<a href="" type="button" id="dathang-1" class="dathang" data-toggle="modal"
+					data-target="#exampleModal">Đặt hàng</a>
+				<li>
+					<a href="" id="dathang-2" data-toggle="modal" data-target="#exampleModal">Đặt hàng</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-expanded="false">
+						<img src="./img/vietnam-flag.png" />
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/vietnam-flag.png" />
+								<span>Tiếng Việt</span>
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/germany.svg" />
+								<span>Tiếng Đức</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<button id="shown" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-times text-white"></i>
+			</button>
+		</div>
+		<!-- </div> -->
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog section-7">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">
+							Đặt hàng chính hãng
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div id="forms" class="form modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h6>#Giảm giá 50%</h6>
+						<div class="sale row">
+							<div class="left">
+								<p>1.580.000 đ</p>
+								<p>Giá chỉ còn</p>
+							</div>
+							<div class="right">
+								<p>790.000 đ</p>
+							</div>
+						</div>
+						<form action="">
+							<input type="text" name="name" placeholder="*Tên của bạn" />
+							<input type="text" name="phone" placeholder="*Số điện thoại" onkeypress="validate(event)" />
+							<button type="submit">Đặt hàng</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section class="contact-page-area section-gap-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 m-auto">
+					<div class="contact_form_container">
+						<div class="contact_form_title">Điền các thông tin sau</div>
+						<form class="contact_form text-center formorder" id="form_contact">
+							<input id="name" type="text" name="contact_name" class="contact_input" placeholder="Họ tên"
+								required="required" />
+							<input type="tel" id="email" name="contact_email" class="contact_input"
+								placeholder="Số điện thoại" required="required" onkeypress="validate(event)" />
+							<input type="text" id="title" name="contact_title" class="style-form d-none"
+								placeholder="Tiêu đề" value="Thông tin khách trang Liên Hệ" />
+							<textarea class="d-none" id="contact_content" name="contact_content"></textarea>
+							<input type="hidden" id="contact-nonce" name="contact-nonce" value="cb5aac1772" /><input
+								type="hidden" name="_wp_http_referer" value="/lien-he/" />
+							<input type="submit" class="button contact_button trans_200" value="Gửi Thông Tin" />
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-5 d-flex flex-column address-wrap offset-lg-1">
+					<div class="contact_content">
+						<div class="contact_content_title">
+							Liên hệ với Gerphaton Gold
+						</div>
+						<div class="contact_content_text">
+							<p>
+								Liên hệ với Gerphaton Gold Hoạt huyết dưỡng não Gerphaton Gold
+								mang đến hiệu quả nhanh và được sản xuất dựa trên công nghệ
+								hiện đại Nhật Bản. Nhanh tay sở hữu ngay sản phẩm để tăng
+								cường sức khỏe não bộ.
+							</p>
+						</div>
+						<div class="contact_info">
+							<ul>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<i class="fas fa-map-marker-alt" style="margin-right: 10px"></i>
+									</div>
+									<div>199 Điện Biên Phủ, Phường 15, Bình Thạnh</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div><i class="fas fa-phone"></i></div>
+									<div>02873070789</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div><i class="fas fa-envelope-open"></i></div>
+									<div>ecom@soji.asia</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-12 mt-5 mb-5">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.148106017461!2d106.70356151535249!3d10.799966492305524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528b9fedbd6cf%3A0x83afa1bf42dacb4!2zMTk5IMSQaeG7h24gQmnDqm4gUGjhu6csIFBoxrDhu51uZyAxNSwgQsOsbmggVGjhuqFuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1598854293336!5m2!1sen!2s"
+						width="100%" height="550px" frameborder="0" style="border: 0" allowfullscreen=""
+						aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="row">
+		<div class="col-xxl-4 col-xl-4 col-lg-3 col-md-6 col-12">
+			<div class="left">
+				<a href="./index.html">
+					<img src="./img/logo-itppharma.png" />
+				</a>
+				<p>
+					Phân phối độc quyền bởi<br />
+					Công ty TNHH Soji Labs
+				</p>
+			</div>
+		</div>
+		<div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-12">
+			<div class="mid">
+				<h6>Liên hệ</h6>
+				<a href="tel:02873070789">
+					<div class="mid-item row">
+						<span><i class="fas fa-phone-alt"></i></span>
+						<p>02873070789</p>
+					</div>
+				</a>
+				<a href="mailto:ecom@soji.asia" class="mid-item row">
+					<span><i class="fas fa-envelope"></i></span>
+					<p>ecom@soji.asia</p>
+				</a>
+				<a href="https://gerphatongold.com" class="mid-item row">
+					<span><i class="fas fa-globe-asia"></i></span>
+					<p>https://gerphatongold.com</p>
+				</a>
+				<a href="" class="disabled">
+					<div class="mid-item row">
+						<span><i class="fas fa-map-marker-alt"></i></span>
+						<p>199 Điện Biên Phủ, P.15, Q.Bình Thạnh</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-12">
+			<div class="right row justify-content-between mt-3-md">
+				<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+					<h6>Kết nối với chúng tôi</h6>
+					<div class="social row">
+						<a href="">
+							<img src="./img/facebook.svg" />
+						</a>
+						<a href="">
+							<img src="./img/youtube.svg" />
+						</a>
+						<a href="">
+							<img src="./img/instagram.svg" />
+						</a>
+						<a href="">
+							<img src="./img/twitter.svg" />
+						</a>
+						<a href="">
+							<img src="./img/whatsapp.svg" />
+						</a>
+					</div>
+				</div>
+				<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+					<h6>Tải mobile apps</h6>
+					<div class="app row">
+						<img src="./img/QR-code.png" />
+						<div class="store">
+							<a href="">
+								<img src="./img/google-play.png" />
+							</a>
+							<a href="">
+								<img src="./img/app-store.png" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap5.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>

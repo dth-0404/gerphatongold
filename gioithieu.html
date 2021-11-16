@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Gerphaton Gold</title>
+	<link rel="stylesheet" href="./css/bootstrap.css" />
+	<link rel="stylesheet" href="./css/all.min.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<!-- <div class="container-fluid"> -->
+		<a class="navbar-brand" href="./index.html">
+			<img src="./img/logo-itppharma.png" />
+		</a>
+		<div class="d-flex align-items-center">
+			<div class="dropdown dropdown-mobile">
+				<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+					aria-expanded="false">
+					<img src="./img/vietnam-flag.png" />
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/vietnam-flag.png" />
+							<span>Tiếng Việt</span>
+						</a>
+					</li>
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/germany.svg" />
+							<span>Tiếng Đức</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<button id="default" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars text-dark"></i>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav m-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="./index.html">TRANG CHỦ</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="./gioithieu.html">GIỚI THIỆU</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./cauhoi.html">CÂU HỎI THƯỜNG GẶP</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./blog.html">KIẾN THỨC SỨC KHỎE</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./lienhe.html">LIÊN HỆ</a>
+				</li>
+				<a href="" type="button" id="dathang-1" class="dathang" data-toggle="modal"
+					data-target="#exampleModal">Đặt hàng</a>
+				<li>
+					<a href="" id="dathang-2" data-toggle="modal" data-target="#exampleModal">Đặt hàng</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-expanded="false">
+						<img src="./img/vietnam-flag.png" />
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/vietnam-flag.png" />
+								<span>Tiếng Việt</span>
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/germany.svg" />
+								<span>Tiếng Đức</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<button id="shown" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-times text-white"></i>
+			</button>
+		</div>
+		<!-- </div> -->
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog section-7">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">
+							Đặt hàng chính hãng
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div id="forms" class="form modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h6>#Giảm giá 50%</h6>
+						<div class="sale row">
+							<div class="left">
+								<p>1.580.000 đ</p>
+								<p>Giá chỉ còn</p>
+							</div>
+							<div class="right">
+								<p>790.000 đ</p>
+							</div>
+						</div>
+						<form action="">
+							<input type="text" name="name" placeholder="*Tên của bạn" />
+							<input type="text" name="phone" placeholder="*Số điện thoại" onkeypress="validate(event)" />
+							<button type="submit">Đặt hàng</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- End modal -->
+	</nav>
+	<section class="section-1 row">
+		<div class="col-xxl-6 col-xl-6 col-lg-7 col-md-8 col-sm-8 section-1-text">
+			<div class="text">
+				<h2>
+					Những Vấn Đề <br />
+					Về Não Bộ Thường Gặp
+				</h2>
+				<p>
+					Não chính là trung tâm điều phối và kiểm soát hầu hết các hoạt động
+					của cơ thể. Đôi lúc chức năng ở não bị suy giảm dẫn đến các bệnh
+					thường gặp như nhức đầu, u não, viêm não, nhồi máu não,... nếu không
+					kịp thời phát hiện và điều trị sẽ ảnh hưởng đến sức khỏe và thậm chí
+					là tính mạng.
+				</p>
+				<button>Xem thêm</button>
+			</div>
+		</div>
+	</section>
+	<section class="section-5 gioithieu">
+		<div class="text">
+			<p>
+				Chào mọi người, tôi tên là Đặng Trần Công Minh có hơn 30 năm công tác
+				và chữa trị ở khoa Nội Thần Kinh bệnh viện Trung Ương TPHCM. Chính tôi
+				đã chứng kiến và trực tiếp chữa trị cho rất nhiều bệnh nhân gặp vấn đề
+				về não, thần kinh,... Khi đến gặp chúng tôi thì họ đã đến giai đoạn
+				khó chữa trị và thậm chí là suýt mất mạng. Vì thế tôi muốn nhấn mạnh
+				với mọi người rằng não bộ rất quan trọng cho sự sống của chúng ta cho
+				nên không nên xem thường ngay cả những biểu hiệu nhỏ.
+			</p>
+			<p>
+				Qua nghiên cứu và tìm hiểu tôi đã kết luận hiện nay sản phẩm bổ sung
+				dưỡng chất cho não rất tốt trên thị trường hiện nay, đó chính là
+				Gerphaton Gold. Với thành phần từ thiên nhiên được sản xuất dựa trên
+				công nghệ hiện đại Nhật Bản, chế phẩm có công dụng bổ sung dưỡng chất
+				cho não, hỗ trợ cải thiện, ngăn ngừa và tăng cường sức khỏe não bộ.
+				Chính vì được chiết xuất và chọn lọc kỹ càng trước khi cho ra mắt nên
+				mức độ an toàn của sản phẩm này là gần như tuyệt đối, có thể dùng cho
+				mọi đối tượng. Bên cạnh đó, Gerphaton Gold còn được nén lại thành viên
+				rất dễ uống, dễ mang đi, thích hợp cho đối tượng có nhu cầu bồi bổ
+				não.
+			</p>
+			<p>
+				Tóm lại, để ngăn ngừa những vấn đề liên quan đến não bộ thì mọi người
+				nên sử dụng sản phẩm bổ sung dưỡng chất cho não từ hôm nay. Và
+				Gerphaton Gold chính là lựa chọn hoàn hảo nhất!.
+			</p>
+		</div>
+		<div class="doctor">
+			<img src="./img/bacsi.png" />
+		</div>
+	</section>
+	<footer class="row">
+		<div class="col-xxl-4 col-xl-4 col-lg-3 col-md-6 col-12">
+			<div class="left">
+				<a href="./index.html">
+					<img src="./img/logo-itppharma.png" />
+				</a>
+				<p>
+					Phân phối độc quyền bởi<br />
+					Công ty TNHH Soji Labs
+				</p>
+			</div>
+		</div>
+		<div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-12">
+			<div class="mid">
+				<h6>Liên hệ</h6>
+				<a href="tel:02873070789">
+					<div class="mid-item row">
+						<span><i class="fas fa-phone-alt"></i></span>
+						<p>02873070789</p>
+					</div>
+				</a>
+				<a href="mailto:ecom@soji.asia" class="mid-item row">
+					<span><i class="fas fa-envelope"></i></span>
+					<p>ecom@soji.asia</p>
+				</a>
+				<a href="https://gerphatongold.com" class="mid-item row">
+					<span><i class="fas fa-globe-asia"></i></span>
+					<p>https://gerphatongold.com</p>
+				</a>
+				<a href="" class="disabled">
+					<div class="mid-item row">
+						<span><i class="fas fa-map-marker-alt"></i></span>
+						<p>199 Điện Biên Phủ, P.15, Q.Bình Thạnh</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-12">
+			<div class="right row justify-content-between mt-3-md">
+				<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+					<h6>Kết nối với chúng tôi</h6>
+					<div class="social row">
+						<a href="">
+							<img src="./img/facebook.svg" />
+						</a>
+						<a href="">
+							<img src="./img/youtube.svg" />
+						</a>
+						<a href="">
+							<img src="./img/instagram.svg" />
+						</a>
+						<a href="">
+							<img src="./img/twitter.svg" />
+						</a>
+						<a href="">
+							<img src="./img/whatsapp.svg" />
+						</a>
+					</div>
+				</div>
+				<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+					<h6>Tải mobile apps</h6>
+					<div class="app row">
+						<img src="./img/QR-code.png" />
+						<div class="store">
+							<a href="">
+								<img src="./img/google-play.png" />
+							</a>
+							<a href="">
+								<img src="./img/app-store.png" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap5.js"></script>
+<script src="./js/main.js"></script>
+
+</html>

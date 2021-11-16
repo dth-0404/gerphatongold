@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Gerphaton Gold</title>
+	<link rel="stylesheet" href="./css/bootstrap.css" />
+	<link rel="stylesheet" href="./css/all.min.css" />
+	<link rel="stylesheet" href="./css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="./css/owl.theme.default.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="./index.html">
+			<img src="./img/logo-itppharma.png" />
+		</a>
+		<div class="d-flex align-items-center">
+			<div class="dropdown dropdown-mobile">
+				<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+					aria-expanded="false">
+					<img src="./img/vietnam-flag.png" />
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/vietnam-flag.png" />
+							<span>Tiếng Việt</span>
+						</a>
+					</li>
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/germany.svg" />
+							<span>Tiếng Đức</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<button id="default" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars text-dark"></i>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav m-auto">
+				<li class="nav-item">
+					<a class="nav-link active" href="./index.html">TRANG CHỦ</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./gioithieu.html">GIỚI THIỆU</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./cauhoi.html">CÂU HỎI THƯỜNG GẶP</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./blog.html">KIẾN THỨC SỨC KHỎE</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./lienhe.html">LIÊN HỆ</a>
+				</li>
+				<a href="" type="button" id="dathang-1" class="dathang" data-toggle="modal"
+					data-target="#exampleModal">Đặt hàng</a>
+				<li>
+					<a href="" id="dathang-2" data-toggle="modal" data-target="#exampleModal" style="background: #d88650;
+					padding: 10px 14px;
+					border-radius: 5px;">Đặt hàng</a>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-expanded="false">
+						<img src="./img/vietnam-flag.png" />
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/vietnam-flag.png" />
+								<span>Tiếng Việt</span>
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/germany.svg" />
+								<span>Tiếng Đức</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<button id="shown" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-times text-white"></i>
+			</button>
+		</div>
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog section-7">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">
+							Đặt hàng chính hãng
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div id="forms" class="form modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h6>#Giảm giá 50%</h6>
+						<div class="sale row">
+							<div class="left">
+								<p>1.580.000 đ</p>
+								<p>Giá chỉ còn</p>
+							</div>
+							<div class="right">
+								<p>790.000 đ</p>
+							</div>
+						</div>
+						<form action="">
+							<input type="text" name="name" placeholder="*Tên của bạn" required autocomplete="off" />
+							<input type="text" name="phone" placeholder="*Số điện thoại" onkeypress="validate(event)"
+								required autocomplete="off" minlength="9" maxlength="10" />
+							<button type="submit">Đặt hàng</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section class="section-1 row">
+		<div class="col-xxl-6 col-xl-6 col-lg-7 col-md-8 col-sm-8 section-1-text">
+			<div class="text">
+				<h2>
+					Những Vấn Đề <br />
+					Về Não Bộ Thường Gặp
+				</h2>
+				<p>
+					Não chính là trung tâm điều phối và kiểm soát hầu hết các hoạt động
+					của cơ thể. Đôi lúc chức năng ở não bị suy giảm dẫn đến các bệnh
+					thường gặp như nhức đầu, u não, viêm não, nhồi máu não,... nếu không
+					kịp thời phát hiện và điều trị sẽ ảnh hưởng đến sức khỏe và thậm chí
+					là tính mạng.
+				</p>
+				<button>Xem thêm</button>
+			</div>
+		</div>
+	</section>
+	<section class="section-2">
+		<div class="top">
+			<div class="text">
+				<h5>
+					Nguyên nhân không ngờ đến <br />
+					Khiến não ngày càng suy yếu hơn.
+				</h5>
+				<p>
+					Ngày nay, trong cuộc sống hiện đại, con người chúng ta thường phải
+					đối mặt với nhiều vấn đề từ rất nhiều khía cạnh dẫn đến não phải
+					tăng năng suất làm việc và trở nên suy yếu từ bao giờ. Khi áp lực
+					quá lớn sẽ ảnh hưởng đến não bộ. Bằng cách nhìn nhận đúng nguyên
+					nhân để có biện pháp khắc phục hiệu quả và giúp não phát triển toàn
+					diện hơn.
+				</p>
+			</div>
+			<img src="./img/phu-nu-lon-tuoi.png" />
+		</div>
+		<div class="bottom row">
+			<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+				<div class="bottom-item">
+					<h6>Chất kích thích</h6>
+					<p>
+						Một cuộc sống tràn ngập chất kích thích sẽ khiến cho quá trình lưu
+						thông máu trong cơ thể ngưng trệ, giảm lượng máu cung cấp đến não,
+						dẫn đến nhiều hệ lụy tiềm tàng.
+					</p>
+				</div>
+			</div>
+			<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+				<div class="bottom-item">
+					<h6>Trầm cảm</h6>
+					<p>
+						Nếu gặp phải tình trạng căng thẳng và mệt mỏi lo âu trong khoảng
+						thời gian dài sẽ dẫn đến mất cân bằng của não bộ, làm cho con
+						người lâm vào trạng thái suy nhược thần kinh.
+					</p>
+				</div>
+			</div>
+			<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+				<div class="bottom-item">
+					<h6>Thiếu ngủ</h6>
+					<p>
+						Thiếu ngủ hoặc mất ngủ dài hạn sẽ làm suy giảm hệ miễn dịch, sức
+						khỏe gây suy giảm hoạt động của não bộ và suy giảm trí nhớ ở con
+						người.
+					</p>
+				</div>
+			</div>
+			<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+				<div class="bottom-item">
+					<h6>Chế độ sinh hoạt</h6>
+					<p>
+						Thói quen thức khuya, dậy muộn, lười vận động,....đều là những
+						nguyên nhân làm cho não không thể phát triển toàn diện mà còn dẫn
+						đến lão hóa sớm.
+					</p>
+				</div>
+			</div>
+			<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+				<div class="bottom-item">
+					<h6>Thiếu vitamin</h6>
+					<p>
+						Não bị thiếu vitamin cần thiết sẽ bị giảm tuần hoàn máu lên não
+						thậm chí là phải đối mặt với nhiều hội chứng tiền đình từ vấn đề
+						này.
+					</p>
+				</div>
+			</div>
+			<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+				<div class="bottom-item">
+					<h6>Chế độ dinh dưỡng</h6>
+					<p>
+						Một trong những nguyên nhân khiến não bộ bị tác động và suy giảm
+						mạnh chính là chế độ ăn uống không lành mạnh và không cung cấp đủ
+						các chất dinh dưỡng cần thiết.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-3">
+		<div class="title">
+			<h3>Não Bộ Cần Một Trợ Lý Để Hoạt Động Tốt Hơn</h3>
+			<h3>
+				GERPHANTON GOLD - <span>Trợ lý toàn năng cho não bộ của bạn!”</span>
+			</h3>
+		</div>
+		<div class="section-3-content row">
+			<div class="col-xxl-6 col-xl-6 col-lg-8 col-md-12 col-12">
+				<div class="left">
+					<p class="text-1">
+						Có công thức chuyên biệt vô cùng độc đáo với nhiều hoạt chất quý
+						hiếm như Ginkgo biloba, Nattokinase, Coenzyme Q10 và các thảo dược
+						như đinh lăng, Đương quy có chức năng bổ huyết và tăng cường tuần
+						hoàn não, giúp não bộ khỏe mạnh và hoạt động tối ưu. Người dùng có
+						thể yên tâm sử dụng vì sản phẩm Gerphaton Gold đã được nghiên cứu
+						bởi các chuyên gia y tế và bác sĩ hàng đầu.
+					</p>
+					<br />
+					<p class="text-2">
+						Đây là một nootropic bổ sung tự nhiên an toàn và không gây ra bất
+						kỳ tác dụng phụ nào. Sản phẩm giúp cải thiện mạnh mẽ chức năng
+						toàn diện của bộ não mà bạn không phải lo lắng tác dụng phụ như
+						các loại thuốc theo toa. Hoạt huyết dưỡng não Gerphaton Gold mang
+						đến hiệu quả nhanh và đặc biệt là được duy trì. Trong thời gian
+						ngắn, sản phẩm hoàn toàn có thể cải thiện não bộ và chất lượng
+						cuộc sống của người sử dụng.
+					</p>
+				</div>
+			</div>
+			<div class="col-xxl-6 col-xl-6 col-lg-4 col-md-12 col-12">
+				<div class="right">
+					<img src="./img/sanpham.png" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-4">
+		<div class="title">
+			<h3>Thành Phần Gerphaton Gold Gồm Có Những Gì?</h3>
+		</div>
+		<div class="section-4-content row">
+			<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6 col-12">
+				<div class="item">
+					<div class="item-img">
+						<img src="./img/ginkgo.png" />
+					</div>
+					<div class="text">
+						<h6>Ginkgo biloba</h6>
+						<p>
+							Là thành phần thảo dược có chứa các chất chống oxy hóa, hỗ trợ
+							kháng viêm, tăng cường các chức năng của não bộ, quá trình lưu
+							thông máu diễn ra suôn sẻ và giúp bảo vệ hệ thần kinh, giảm các
+							tình trạng lo âu
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6 col-12">
+				<div class="item">
+					<div class="item-img">
+						<img src="./img/dinh-lang.png" />
+					</div>
+					<div class="text">
+						<h6>Đinh lăng</h6>
+						<p>
+							Đinh lăng là thần dược có công dụng an thần, dưỡng trí não, giảm
+							bớt căng thẳng và thúc đẩy quá trình hồi phục cơ thể, ngoài ra
+							còn giúp cải thiện trí nhớ, cân bằng tâm trạng ở con người.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6 col-12">
+				<div class="item">
+					<div class="item-img">
+						<img src="./img/duong-quy.png" />
+					</div>
+					<div class="text">
+						<h6>Đương quy</h6>
+						<p>
+							Là một loại dược liệu quý để bồi bổ sức khỏe giúp tăng cường
+							tuần hoàn máu, cải thiện trí nhớ, ổn định chỉ số huyết áp và bảo
+							vệ hệ thần kinh tránh khỏi những tác động từ bên ngoài.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6 col-12">
+				<div class="item">
+					<div class="item-img">
+						<img src="./img/duong-quy.png" />
+					</div>
+					<div class="text">
+						<h6>Nattokinase</h6>
+						<p>
+							Đây là một phương thuốc dân gian để cung cấp oxy cho não bộ,
+							giúp phục hồi các vùng não bị tổn thương và cải thiện những di
+							chứng do tai biến mạch máu não để lại.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6 col-12">
+				<div class="item">
+					<div class="item-img">
+						<img src="./img/nattokinase.png" />
+					</div>
+					<div class="text">
+						<h6>Rutin</h6>
+						<p>
+							Đây là thành phần quen thuộc có trong các sản phẩm dưỡng não với
+							công dụng điều hòa huyết áp và hỗ trợ điều trị các vấn đề về não
+							như giãn tĩnh mạch, viêm mao mạch, xơ cứng mạch máu,...
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6 col-12">
+				<div class="item">
+					<div class="item-img">
+						<img src="./img/rutin.png" />
+					</div>
+					<div class="text">
+						<h6>Coenzyme Q10</h6>
+						<p>
+							Coenzyme Q10 có công dụng điều trị các chứng bệnh về tim mạch
+							cũng như các vấn đề của não bộ như thiếu máu, đau nửa đầu, triệu
+							chứng suy tim ảnh hưởng đến sức khỏe.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-5">
+		<div class="title">
+			<h3>Lời Khuyên Từ Chuyên Gia Về Não Bộ</h3>
+		</div>
+		<div class="doctor">
+			<img src="./img/bacsi.png" />
+		</div>
+		<div class="text">
+			<p>
+				Chào mọi người, tôi tên là Đặng Trần Công Minh có hơn 30 năm công tác
+				và chữa trị ở khoa Nội Thần Kinh bệnh viện Trung Ương TPHCM. Chính tôi
+				đã chứng kiến và trực tiếp chữa trị cho rất nhiều bệnh nhân gặp vấn đề
+				về não, thần kinh,... Khi đến gặp chúng tôi thì họ đã đến giai đoạn
+				khó chữa trị và thậm chí là suýt mất mạng. Vì thế tôi muốn nhấn mạnh
+				với mọi người rằng não bộ rất quan trọng cho sự sống của chúng ta cho
+				nên không nên xem thường ngay cả những biểu hiệu nhỏ.
+			</p>
+			<p>
+				Qua nghiên cứu và tìm hiểu tôi đã kết luận hiện nay sản phẩm bổ sung
+				dưỡng chất cho não rất tốt trên thị trường hiện nay, đó chính là
+				Gerphaton Gold. Với thành phần từ thiên nhiên được sản xuất dựa trên
+				công nghệ hiện đại Nhật Bản, chế phẩm có công dụng bổ sung dưỡng chất
+				cho não, hỗ trợ cải thiện, ngăn ngừa và tăng cường sức khỏe não bộ.
+				Chính vì được chiết xuất và chọn lọc kỹ càng trước khi cho ra mắt nên
+				mức độ an toàn của sản phẩm này là gần như tuyệt đối, có thể dùng cho
+				mọi đối tượng. Bên cạnh đó, Gerphaton Gold còn được nén lại thành viên
+				rất dễ uống, dễ mang đi, thích hợp cho đối tượng có nhu cầu bồi bổ
+				não.
+			</p>
+			<p>
+				Tóm lại, để ngăn ngừa những vấn đề liên quan đến não bộ thì mọi người
+				nên sử dụng sản phẩm bổ sung dưỡng chất cho não từ hôm nay. Và
+				Gerphaton Gold chính là lựa chọn hoàn hảo nhất!.
+			</p>
+		</div>
+	</section>
+	<div class="sojilab">
+		<img src="./img/sojilabs.png" />
+	</div>
+	<section class="section-6">
+		<div class="title">
+			<h3>GERPHATON GOLD</h3>
+			<p>
+				Đừng chỉ lắng nghe chúng tôi, hãy kiểm tra những gì khách hàng đang
+				nói!
+			</p>
+		</div>
+		<div class="review owl-carousel owl-theme">
+			<div class="item item">
+				<div class="item-img">
+					<img src="./img/customer.png" />
+				</div>
+				<div class="text">
+					<p>
+						Tôi mắc chứng thiếu máu não từ rất lâu rồi, cơ thể không bao giờ
+						được khỏe mạnh thật sự. Từ khi biết đến Gerphaton Gold, tôi đã sử
+						dụng và tôi đã thật sự khỏi bệnh. Các bác sĩ cũng đã ngạc nhiên
+						với kết quả xét nghiệm của tôi.
+					</p>
+					<h6>Minh Hải, TPHCM</h6>
+				</div>
+			</div>
+			<div class="item item">
+				<div class="item-img">
+					<img src="./img/customer-2.png" />
+				</div>
+				<div class="text">
+					<p>
+						Tôi đã uống đến hộp Gerphaton Gold thứ hai và tôi xin kết luận là
+						chưa có sản phẩm nào mà tốt như vậy. Tôi sống chung với bệnh mất
+						ngủ cũng đã 10 năm. Sản phẩm này đã cho tôi biết rõ ý nghĩa của
+						cuộc sống là gì.
+					</p>
+					<h6>Mỹ Hà, Hà Nội</h6>
+				</div>
+			</div>
+			<div class="item item">
+				<div class="item-img">
+					<img src="./img/customer-3.png" />
+				</div>
+				<div class="text">
+					<p>
+						Mẹ tôi được bác sĩ phát hiện là có nguy cơ bị tai biến mạch máu
+						não vào nửa năm trước. Tôi lo lắm và tìm đủ mọi cách để giúp bà có
+						cuộc sống và sức khỏe tốt hơn. Mẹ tôi đã dùng được 2 hộp Gerphaton
+						Gold và chỉ số đều đã về mức an toàn. Thật may mắn!
+					</p>
+					<h6>Đinh Thư, Đà Nẵng</h6>
+				</div>
+			</div>
+			<div class="item item">
+				<div class="item-img">
+					<img src="./img/customer-4.png" />
+				</div>
+				<div class="text">
+					<p>
+						Tôi nhận thấy hiệu quả của Gerphaton Gold chỉ sau 2 tháng sử dụng
+						đều đặn. Cơ thể khỏe khoắn, ăn ngon, ngủ sâu và nhất là các mạch
+						máu não của tôi đã thật sự hồi phục và hoạt động tốt. Tôi vô cùng
+						biết ơn những ai đã chế tạo ra nó.
+					</p>
+					<h6>Thiên Duyên, Hải Phòng</h6>
+				</div>
+			</div>
+			<div class="item item">
+				<div class="item-img">
+					<img src="./img/customer-5.png" />
+				</div>
+				<div class="text">
+					<p>
+						Tôi đã sống chung với chứng bệnh thiếu máu não được 5 năm trời. Cứ
+						nghĩ sẽ hết cách thật rồi cho đến khi đứa con của tôi phát hiện ra
+						Gerphaton Gold thì tôi đã chia tay căn bệnh này rồi. Tuy nhiên tôi
+						vẫn dùng nó để ăn và ngủ ngon hơn, bồi bổ sức khỏe.
+					</p>
+					<h6>Mỹ Tâm, Cần Thơ</h6>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section-7" class="section-7 row">
+		<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
+			<div class="img">
+				<img src="./img/sanpham.png" />
+			</div>
+		</div>
+		<div class="col-xxl-6 offset-xxl-1 col-xl-6 col-lg-6 col-md-12 col-12 ml-auto">
+			<div id="forms" class="form">
+				<h6>#Giảm giá 50%</h6>
+				<div class="sale row">
+					<div class="left">
+						<p>1.580.000 đ</p>
+						<p>Giá chỉ còn</p>
+					</div>
+					<div class="right">
+						<p>790.000 đ</p>
+					</div>
+				</div>
+				<form action="">
+					<input type="text" name="name" placeholder="*Tên của bạn" required autocomplete="off" />
+					<input type="text" name="phone" placeholder="*Số điện thoại" onkeypress="validate(event)" required
+						autocomplete="off" maxlength="10" minlength="9" />
+					<button type="submit">Đặt hàng</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer class="row">
+		<div class="col-xxl-4 col-xl-4 col-lg-3 col-md-6 col-12">
+			<div class="left">
+				<a href="./index.html">
+					<img src="./img/logo-itppharma.png" />
+				</a>
+				<p>
+					Phân phối độc quyền bởi<br />
+					Công ty TNHH Soji Labs
+				</p>
+			</div>
+		</div>
+		<div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-12">
+			<div class="mid">
+				<h6>Liên hệ</h6>
+				<a href="tel:02873070789">
+					<div class="mid-item row">
+						<span><i class="fas fa-phone-alt"></i></span>
+						<p>02873070789</p>
+					</div>
+				</a>
+				<a href="mailto:ecom@soji.asia" class="mid-item row">
+					<span><i class="fas fa-envelope"></i></span>
+					<p>ecom@soji.asia</p>
+				</a>
+				<a href="https://gerphatongold.com" class="mid-item row">
+					<span><i class="fas fa-globe-asia"></i></span>
+					<p>https://gerphatongold.com</p>
+				</a>
+				<a href="" class="disabled">
+					<div class="mid-item row">
+						<span><i class="fas fa-map-marker-alt"></i></span>
+						<p>199 Điện Biên Phủ, P.15, Q.Bình Thạnh</p>
+					</div>
+				</a>
+
+			</div>
+		</div>
+		<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-12">
+			<div class="right row justify-content-between mt-3-md">
+				<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+					<h6>Kết nối với chúng tôi</h6>
+					<div class="social row">
+						<a href="#" target="_blank">
+							<img src="./img/facebook.svg" />
+						</a>
+						<a href="#" target="_blank">
+							<img src="./img/youtube.svg" />
+						</a>
+						<a href="#" target="_blank">
+							<img src="./img/instagram.svg" />
+						</a>
+						<a href="#" target="_blank">
+							<img src="./img/twitter.svg" />
+						</a>
+						<a href="#" target="_blank">
+							<img src="./img/whatsapp.svg" />
+						</a>
+					</div>
+				</div>
+				<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+					<h6>Tải mobile apps</h6>
+					<div class="app row">
+						<img src="./img/QR-code.png" />
+						<div class="store">
+							<a href="#">
+								<img src="./img/google-play.png" />
+							</a>
+							<a href="#">
+								<img src="./img/app-store.png" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/bootstrap5.js"></script>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(".review").owlCarousel({
+				dots: true,
+				loop: false,
+				responsive: {
+					0: { items: 1 },
+					420: { items: 2 },
+					1000: { items: 3 },
+					1280: { items: 3 },
+					1680: { items: 3 },
+					1920: { items: 3 },
+				},
+			});
+		});
+		var width = screen.width;
+		if (width == 1024) {
+			document.getElementById("dathang-1").style.display = "none";
+			document.getElementById("dathang-2").style.display = "block";
+		}
+	</script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1767 @@
+@media only screen and (max-width: 1920) {
+	nav.navbar {
+		padding-right: 178px;
+	}
+}
+@media only screen and (max-width: 1680px) {
+	:root {
+		font-size: 16px;
+	}
+	div.title h3 {
+		font-size: 27px !important;
+	}
+	.text h6 {
+		font-size: 22px !important;
+		padding-top: 10px !important;
+	}
+	footer {
+		padding: 70px 100px;
+	}
+	footer .left p {
+		font-size: 18px;
+	}
+	/* Trang chu */
+	nav.navbar .navbar-collapse ul li a,
+	nav.navbar .navbar-collapse ul .dathang {
+		font-size: 18px;
+	}
+	.section-1 {
+		height: 600px;
+	}
+	.section-1 .text h2 {
+		font-size: 32px;
+		line-height: 1.3;
+	}
+	.section-1 .text p {
+		padding: 20px 0;
+		line-height: 26px;
+	}
+	.section-1 .text button {
+		padding: 10px 35px;
+	}
+	.section-2 .top {
+		height: 670px;
+	}
+	.section-2 .top .text h5 {
+		font-size: 28px;
+		padding-bottom: 22px;
+	}
+	.section-2 .bottom .bottom-item h6 {
+		font-size: 22px;
+	}
+	.section-2 .bottom {
+		margin-top: 30px;
+	}
+	.section-3 .title h3 {
+		line-height: 1.3;
+	}
+	.section-3 .section-3-content .left p {
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.section-3 .section-3-content .left .text-1::before {
+		top: -17px;
+	}
+	.section-3 .section-3-content .left .text-2::after {
+		width: 124px;
+		height: 108%;
+		bottom: -26px;
+		right: -31px;
+	}
+	.section-5 .doctor {
+		width: 50%;
+		padding-bottom: 20%;
+	}
+	.section-5 .doctor::after {
+		font-size: 16px;
+	}
+	.section-6 .title p {
+		font-size: 22px;
+	}
+	.section-6 .item .text p {
+		line-height: 26px;
+		margin-bottom: 5px;
+	}
+	.section-6 .item .text h6 {
+		font-size: 18px !important;
+		padding-top: 0 !important;
+	}
+	.section-7 .form h6 {
+		font-size: 45px;
+		padding-bottom: 15px;
+	}
+	.section-7 .form .sale .left p {
+		font-size: 28px;
+	}
+	.section-7 .form .sale .right {
+		padding: 12px 45px;
+	}
+	.section-7 .form .sale .right p {
+		font-size: 32px;
+	}
+	.section-7 .form {
+		padding: 30px;
+	}
+	.section-7 .form form input[name="name"] {
+		margin-top: 40px;
+	}
+	.section-7 .form form input {
+		height: 75px;
+		font-size: 20px;
+	}
+
+	/* Trang chu */
+
+	/* Cau hoi */
+	.cauhoi-top {
+		padding-top: 60px;
+	}
+	.cauhoi-top .title h2 {
+		font-size: 34px;
+		line-height: 1.3;
+	}
+	.cauhoi-top .fact .fact-item span {
+		font-size: 28px;
+		padding-right: 6px;
+	}
+	.ask .answer p,
+	.ask .ask-item p {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.blog-top .left h5 {
+		font-size: 28px;
+		line-height: 1.3;
+		padding-bottom: 16px;
+	}
+	.link {
+		padding-bottom: 10px;
+	}
+	.box-des-blog .title-des-blog {
+		font-size: 22px;
+	}
+	/* Cau hoi */
+
+	/* Lien he */
+	.contact-page-area {
+		margin-top: 100px;
+	}
+	/* Lien he */
+	/* Chi tiet */
+	.wrapper.detail {
+		padding: 80px;
+	}
+	.side-bar {
+		top: 110px;
+	}
+	.content-post .text h1 {
+		font-size: 32px;
+	}
+	.content-post .text h6 {
+		font-size: 24px;
+		padding: 20px 0;
+	}
+	.side-bar .card .card-body .card-title {
+		font-size: 26px;
+	}
+	.side-bar .card .card-body .card-text .left,
+	.side-bar .card .card-body .card-text .right {
+		font-size: 22px;
+	}
+	.recommend .title p {
+		font-size: 24px;
+	}
+	.recommend .title button {
+		font-size: 23px;
+	}
+	.recommend__item .card .card-body h5 {
+		font-size: 20px;
+	}
+	/* Chi tiet */
+}
+@media only screen and (max-width: 1536px)
+{
+	.section-1-content .title-2
+	{
+		font-size: 40px;
+	}
+	.section-1-content
+	{
+		padding-right: 	40px;
+	}
+}
+@media only screen and (max-width: 1440px) {
+	body {
+		padding-top: 100px;
+	}
+	div.title h3 {
+		font-size: 25px !important;
+	}
+	.text h6 {
+		font-size: 20px !important;
+	}
+	.dropdown .dropdown-item img {
+		width: 30px;
+		height: 30px;
+	}
+	nav.navbar .navbar-collapse ul li a, nav.navbar .navbar-collapse ul .dathang{
+		font-size: 16px;
+	}
+	/* Owl carousel */
+	.owl-carousel .owl-stage-outer {
+		width: 98vw;
+		padding: 0 80px;
+		padding-bottom: 110px;
+	}
+	/* Owl carousel */
+	/* Trang chu */
+	nav.navbar {
+		padding: 0 30px;
+		height: 100px;
+	}
+	nav.navbar .navbar-collapse ul .dathang {
+		width: 150px;
+	}
+	.section-1 {
+		height: 550px;
+	}
+	.section-1 .text h2 {
+		font-size: 28px;
+	}
+	.section-1 .text p {
+		padding: 15px 0;
+	}
+	.section-2 .top {
+		height: 590px;
+	}
+	.section-2 .top .text {
+		padding-top: 50px;
+		width: 75%;
+	}
+	.section-2 .top .text h5 {
+		font-size: 26px;
+		padding-bottom: 18px;
+	}
+	.section-2 .bottom .bottom-item h6 {
+		font-size: 20px;
+	}
+	.section-3 .title {
+		padding: 30px 0;
+	}
+	.section-3 .section-3-content .left p {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.section-3 .section-3-content::after {
+		width: 60%;
+		height: 285%;
+		right: -220px;
+		transform: scale(0.6);
+		top: -89%;
+	}
+	.section-4 .title {
+		padding: 40px 0;
+	}
+	.section-5 .title {
+		padding: 30px 0;
+	}
+	.section-5 .doctor {
+		padding-bottom: 22%;
+	}
+	.section-6 .title h3 {
+		line-height: 1;
+	}
+	.section-6 .title p {
+		font-size: 20px;
+	}
+	.section-7 .form h6 {
+		font-size: 38px;
+		padding-bottom: 10px;
+	}
+	.section-7 .form .sale .left p {
+		font-size: 26px;
+	}
+	.section-7 .form .sale .right {
+		padding: 8px 40px;
+	}
+	.section-7 .form form input,
+	.section-7 .form form button {
+		height: 70px;
+	}
+	.section-7 .form form input[name="name"] {
+		margin-top: 35px;
+	}
+	.section-7 .form form button {
+		margin-top: 45px;
+		font-size: 22px;
+	}
+	.sojilab::after {
+		right: -280px;
+	}
+	/* Trang chu */
+
+	/* Cau hoi */
+	.cauhoi-top .title h2 {
+		font-size: 31px;
+	}
+	.ask .answer p,
+	.ask .ask-item p {
+		margin-bottom: 5px;
+	}
+	.cauhoi-top .fact .fact-item-2 {
+		height: 214px;
+	}
+	/* Cau hoi */
+
+	/* Blog */
+	.blog-top .left h5 {
+		font-size: 26px;
+		padding-bottom: 12px;
+	}
+	.blog-top .left .link p {
+		padding-top: 12px;
+	}
+	.blog-top .banner {
+		padding-bottom: 56%;
+	}
+	.blog-top .left .xemthem {
+		font-size: 18px;
+		padding: 11px 0;
+	}
+	.box-des-blog .title-des-blog {
+		font-size: 20px;
+	}
+	.img-des-blog {
+		height: 230px;
+	}
+	/* Blog */
+
+	/* Chi tiet */
+	.side-bar .card .card-body {
+		padding: 15px;
+	}
+	.content-post .text h1 {
+		font-size: 28px;
+	}
+	.content-post .text p,
+	.link span,
+	.recommend__item .card .card-body p {
+		font-size: 16px;
+	}
+	.content-post .text h6 {
+		font-size: 22px;
+		padding: 17px 0;
+	}
+	.side-bar .card .card-body .card-title {
+		font-size: 24px;
+	}
+	.side-bar .card .card-body .card-text .left,
+	.side-bar .card .card-body .card-text .right {
+		font-size: 18px;
+	}
+	.recommend .title p {
+		font-size: 22px;
+	}
+	.recommend .title button {
+		font-size: 21px;
+	}
+	.recommend__item .card .card-body h5 {
+		font-size: 19px;
+	}
+	.link {
+		padding-bottom: 30px;
+	}
+	.content-post .text .span {
+		padding: 0;
+	}
+	/* Chi tiet */
+}
+@media only screen and (max-width: 1280px) {
+	body {
+		padding-top: 90px;
+	}
+	h6,
+	.text h6 {
+		font-size: 19px !important;
+	}
+	div.title h3 {
+		font-size: 23px !important;
+	}
+	.dropdown-menu.show {
+		right: 0;
+		left: unset;
+	}
+	nav.navbar .navbar-collapse ul li a,
+	nav.navbar .navbar-collapse ul .dathang {
+		font-size: 16px;
+	}
+	nav.navbar .navbar-collapse ul .dathang {
+		width: 135px;
+	}
+	nav.navbar {
+		padding: 0 15px;
+		height: 90px;
+	}
+	/* Owl Carousel */
+	.owl-carousel .owl-stage-outer {
+		width: 98vw;
+		margin-left: -100px !important;
+		padding: 0 80px;
+		padding-bottom: 110px;
+		margin-bottom: -130px;
+		z-index: -1;
+	}
+	/* Owl carousel */
+
+	/* Trang chu */
+	.section-1 {
+		height: 500px;
+	}
+	.section-1 .text {
+		padding-left: 80px;
+	}
+	.section-1 .text h2 {
+		font-size: 26px;
+	}
+	.section-1 .text p {
+		padding: 10px 0;
+	}
+	.section-1 .text button {
+		padding: 8px 32px;
+	}
+	.section-2,
+	.section-3,
+	.section-4,
+	.section-5,
+	.section-6,
+	.section-7 {
+		padding: 0 80px;
+	}
+	.section-2 .top {
+		height: 535px;
+	}
+	.section-2 .top .text h5 {
+		font-size: 24px;
+		padding-bottom: 10px;
+	}
+	.section-2 .top .text p {
+		line-height: 27px;
+	}
+	.section-2 .bottom {
+		margin-top: 0;
+	}
+	.section-3 .title {
+		padding: 25px 0;
+	}
+	.section-3 .title h3 {
+		line-height: 1.2;
+	}
+	.section-3 .section-3-content::after {
+		width: 67%;
+		height: 270%;
+		right: -215px;
+		transform: scale(0.5);
+		top: -92%;
+	}
+	.section-3 .section-3-content .left p {
+		line-height: 24px;
+	}
+	.section-3 .section-3-content .right {
+		padding-bottom: 65%;
+	}
+	.section-4 .title {
+		padding: 20px 0;
+	}
+	.section-4 .section-4-content .item {
+		height: 370px;
+	}
+	.section-4 .section-4-content .item .text p {
+		line-height: 25px;
+	}
+	.section-5 .title {
+		padding: 15px 0;
+	}
+	.section-5 .doctor {
+		width: 59%;
+		padding-bottom: 22%;
+	}
+	.section-5 .doctor img {
+		width: 32%;
+	}
+	.section-6 .item .text h6 {
+		font-size: 17px !important;
+	}
+	.section-7 {
+		padding-bottom: 80px;
+	}
+	.section-7 .img {
+		width: 95%;
+		transform: translateY(10%);
+	}
+	.section-7 .form {
+		margin-left: 0;
+	}
+	.section-7 .form h6 {
+		font-size: 35px !important;
+	}
+	.section-7 .form .sale .left p {
+		font-size: 24px;
+	}
+	.section-7 .form .sale .right {
+		padding: 5px 34px;
+	}
+	.section-7 .form .sale .right p {
+		font-size: 30px;
+	}
+	.section-7 .form form input[name="name"] {
+		margin-top: 25px;
+	}
+	.section-7 .form form input,
+	.section-7 .form form button {
+		height: 65px;
+	}
+	.section-7 .form form button {
+		margin-top: 35px;
+	}
+	footer .right .social a {
+		margin-right: 0;
+	}
+	footer .right .social a img {
+		width: 80%;
+	}
+	footer .right .app > img {
+		width: 77px;
+		height: 75px;
+	}
+	footer .right .app .store img {
+		width: 130px;
+	}
+	/* Trang chu */
+
+	/* Cau hoi */
+	.cauhoi-top .title h2 {
+		font-size: 28px;
+		margin-bottom: 30px;
+	}
+	.cauhoi-top .fact .fact-item {
+		padding: 35px;
+	}
+	.cauhoi-top .fact .fact-item-2 {
+		height: -webkit-fit-content;
+		height: -moz-fit-content;
+		height: fit-content;
+	}
+	/* Cau hoi */
+
+	/* Blog */
+	.blog-top {
+		padding: 0 80px;
+	}
+	.blog-top .left h5 {
+		font-size: 23px;
+		padding-bottom: 0;
+	}
+	.blog-top .left .xemthem {
+		font-size: 16px;
+		padding: 8px 0;
+	}
+	/* Blog */
+	/* Chi tiet */
+	.wrapper.detail {
+		padding: 0 70px;
+		padding-top: 50px;
+	}
+	.side-bar .card .card-body {
+		padding: 15px;
+	}
+	.link span {
+		font-size: 15px;
+		margin-right: 5px;
+	}
+	.recommend .title a {
+		font-size: 22px;
+	}
+	/* Chi tiet */
+}
+@media only screen and (max-width: 1024px) {
+	:root {
+		font-size: 15px;
+	}
+	nav.navbar {
+		padding: 0 10px;
+	}
+	.navbar-light .navbar-brand img {
+		width: 120px;
+	}
+	nav.navbar .navbar-collapse ul li a,
+	nav.navbar .navbar-collapse ul .dathang {
+		font-size: 15px;
+		text-align: center;
+	}
+	nav.navbar .navbar-collapse ul {
+		padding: 0;
+	}
+	.dropdown img {
+		width: 27px;
+		height: 27px;
+	}
+	.dropdown-menu {
+		min-width: -webkit-fit-content;
+		min-width: -moz-fit-content;
+		min-width: fit-content;
+	}
+	.dropdown .dropdown-menu .dropdown-item span {
+		font-size: 15px;
+	}
+	div.title h3 {
+		font-size: 21px !important;
+	}
+	h6,
+	.text h6 {
+		font-size: 17px !important;
+	}
+	/* Trang chu */
+	.section-2,
+	.section-3,
+	.section-4,
+	.section-5,
+	.section-6,
+	.section-7 {
+		padding: 0 60px;
+	}
+	.section-1 {
+		height: 405px;
+	}
+	.section-1 .text {
+		padding-left: 60px;
+	}
+	.section-1 .text h2 {
+		font-size: 23px;
+	}
+	.section-1 .text p {
+		padding: 7px 0;
+	}
+	.section-1 .section-1-text {
+		transform: translateY(15%);
+	}
+	.section-2 .top {
+		width: 71%;
+		height: 500px;
+		transform: translateY(-50px);
+	}
+	.section-2 .top .text {
+		width: 80%;
+	}
+	.section-2 .top .text h5 {
+		font-size: 22px;
+		padding-bottom: 5px;
+	}
+	.section-2 .top .text p {
+		line-height: 24px;
+	}
+	.section-2 .top img {
+		bottom: -30px;
+	}
+	.section-2 .bottom {
+		margin-top: 20px;
+	}
+	.section-3 {
+		padding: 0 80px;
+	}
+	.section-3 .section-3-content::after {
+		width: 86%;
+		height: 357%;
+		right: -260px;
+		transform: scale(0.4);
+		top: -133%;
+	}
+	.section-3 .section-3-content .left {
+		padding-right: 50px;
+	}
+	.section-3 .section-3-content .left p {
+		line-height: 22px;
+	}
+	.section-3 .section-3-content .left br {
+		display: none;
+	}
+	.section-3 .section-3-content .right {
+		padding-bottom: 90%;
+		width: 100%;
+	}
+	.section-3 .section-3-content .left .text-1::before {
+		top: -5px;
+		width: 80px;
+		height: 110%;
+		left: -29px;
+	}
+	.section-3 .section-3-content .left .text-2::after {
+		width: 93px;
+		height: 96%;
+		bottom: -7px;
+		right: -18px;
+	}
+	.section-3 .title h3 {
+		line-height: 1.1;
+	}
+	.section-4 {
+		padding: 0 80px;
+	}
+	.section-4 .section-4-content .item {
+		margin: 0 15px;
+		margin-bottom: 30px;
+		padding: 18px;
+	}
+	.section-5::after {
+		width: 100%;
+	}
+	.section-5 .doctor {
+		width: 76%;
+	}
+	.section-5 .doctor img {
+		width: 25%;
+	}
+	.sojilab::after {
+		content: none;
+	}
+	.section-6 .title {
+		width: 58%;
+	}
+	.section-6 .title p {
+		font-size: 18px;
+	}
+	.section-6 .item {
+		margin: 45px 10px 40px 10px;
+		padding: 0 20px 20px 20px;
+	}
+	.section-7 {
+		margin-bottom: 60px;
+	}
+	.section-7 .form {
+		width: 100%;
+		margin-left: auto;
+	}
+	.section-7 .form h6 {
+		font-size: 32px !important;
+	}
+	.section-7 .form .sale .left p {
+		font-size: 22px;
+	}
+	.section-7 .form .sale .right p {
+		font-size: 28px;
+	}
+	.section-7 .form form input[name="name"] {
+		margin-top: 20px;
+		margin-bottom: 17px;
+	}
+	.section-7 .form form input,
+	.section-7 .form form button {
+		height: 60px;
+	}
+	footer {
+		padding: 50px 80px;
+	}
+	footer .left p {
+		font-size: 16px;
+	}
+	/* Trang chu */
+
+	/* Cau hoi */
+	.cauhoi-top {
+		padding: 0 80px;
+		padding-top: 50px;
+	}
+	.cauhoi-top .title h2 {
+		font-size: 26px;
+	}
+	.cauhoi-top .fact,
+	.img-bot,
+	.ask {
+		width: 100%;
+	}
+	.ask {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	.cauhoi-top .fact .fact-item-2 {
+		height: 178px;
+	}
+	/* Cau hoi */
+
+	/* Blog */
+	.blog-top {
+		flex-direction: column-reverse;
+		margin-top: 50px;
+		padding: 0 50px;
+	}
+	.blog-top .banner {
+		padding-bottom: 30%;
+		width: 100vw;
+		margin-left: -50vw;
+		left: 50%;
+	}
+	.blog-top .left {
+		padding-right: 0;
+		margin-top: 15px;
+	}
+	.blog-top .left h5 br {
+		display: none;
+	}
+	.blog-top .left .xemthem {
+		width: 25%;
+	}
+	.blog-bot {
+		padding: 50px 50px;
+	}
+	.box-blog {
+		padding-right: 50px;
+	}
+	.box-des-blog span.time-blog {
+		text-transform: inherit;
+		color: grey;
+		font-size: 12px;
+	}
+	.img-des-blog {
+		height: 205px;
+	}
+	.box-content-recent > div:nth-child(2) {
+		padding: 0;
+	}
+	.recent-blog div {
+		margin-top: 5px !important;
+		font-size: 11px;
+		color: gray;
+	}
+	.box-des-blog .title-des-blog {
+		font-size: 18px;
+		font-weight: 700;
+		margin-top: 5px;
+	}
+	/* Blog */
+
+	/* Chi tiet */
+	.side-bar {
+		display: none;
+	}
+	.recommend {
+		margin-top: 50px;
+	}
+	/* Chi tiet */
+}
+@media only screen and (max-width: 768px) {
+	.dropdown.dropdown-mobile {
+		display: block;
+	}
+
+	nav.navbar {
+		padding: 0 15px;
+	}
+	#default {
+		border: unset;
+		font-size: 23px;
+	}
+	#default:focus {
+		border: unset;
+		box-shadow: unset;
+	}
+	.navbar-collapse {
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: -100vw;
+		background: rgba(0, 0, 0, 0.85);
+		z-index: 997;
+		display: block;
+	}
+	.navbar-collapse.show {
+		left: 0;
+		touch-action: none;
+	}
+	.navbar-collapse.in {
+		overflow-y: visible;
+		transition: 0;
+	}
+	#shown {
+		position: absolute;
+		top: 30px;
+		right: 20px;
+	}
+	nav.navbar .navbar-collapse ul {
+		margin: unset !important;
+		padding: 90px 90px;
+		align-items: flex-start;
+	}
+	nav.navbar .navbar-collapse ul li {
+		padding: 10px 0;
+		
+	}
+	nav.navbar .navbar-collapse ul li a {
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	nav.navbar .navbar-collapse ul li a.active {
+		font-size: 20px;
+		font-weight: 800;
+	}
+	nav.navbar .navbar-collapse ul #dathang-2{
+		display: block;
+		font-size: 22px;
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+	nav.navbar .navbar-collapse ul #dathang-1{
+		display: none;
+	}
+	nav.navbar .navbar-collapse ul .dathang{
+		background-image: unset;
+		background-color: transparent;
+		padding: 0;
+	}
+	.nav-item.dropdown {
+		display: none;
+	}
+	.dropdown {
+		margin-right: 10px;
+	}
+	.dropdown .dropdown-menu .dropdown-item span {
+		color: #000000;
+	}
+	div.title h3 {
+		font-size: 20px !important;
+	}
+	/* Owl carousel */
+	.owl-carousel .owl-stage-outer {
+		width: 104vw;
+	}
+	/* Owl carousel */
+	/* Modal  */
+	.modal .modal-dialog .modal-content {
+		width: 65%;
+	}
+	.modal-dialog.section-7 {
+		padding: 0;
+	}
+	.modal-dialog.section-7 .form {
+		width: 100%;
+		border-radius: unset;
+		margin-top: 0;
+	}
+	.modal-dialog.section-7 .modal-title {
+		font-size: 25px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	.modal-dialog.section-7 .modal-header {
+		align-items: center;
+		justify-content: space-evenly;
+		padding: 1rem;
+	}
+	.modal-header .close {
+		margin: 0;
+	}
+	/* Modal */
+	/* Trang chu */
+	.section-2,
+	.section-3,
+	.section-4,
+	.section-5,
+	.section-6,
+	.section-7 {
+		padding: 0 50px;
+	}
+	.section-1 {
+		background-position: 80% 0px;
+	}
+	.section-1 .section-1-text {
+		transform: translateY(10%);
+	}
+	.section-1 .text {
+		padding-left: 50px;
+	}
+	.section-1 .text h2 {
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.section-2 .top {
+		width: 80%;
+		height: 435px;
+	}
+	.section-2 .top .text {
+		padding-top: 30px;
+		width: 85%;
+	}
+	.section-2 .top .text h5 {
+		font-size: 20px;
+	}
+	.section-2 .top .text p {
+		line-height: 22px;
+	}
+	.section-2 .bottom .bottom-item {
+		padding-right: 0;
+		padding-bottom: 5px;
+	}
+	.section-2 .bottom > div:nth-child(odd) {
+		padding-right: 15px;
+	}
+	.section-3 .section-3-content .left .text-1::before {
+		top: 6px;
+		left: -33px;
+	}
+	.section-3 .section-3-content .left .text-2::after {
+		width: 70px;
+		height: 90%;
+		bottom: -13px;
+		right: 2px;
+	}
+	.section-3 .section-3-content .left {
+		padding-right: 0;
+	}
+	.section-3 .section-3-content .right {
+		padding-bottom: 45%;
+		width: 70%;
+		margin: auto;
+	}
+	.section-3 .section-3-content::after {
+		content: none;
+	}
+	.section-4 {
+		padding: 0 40px;
+	}
+	.section-4 .section-4-content .item {
+		height: 340px;
+	}
+	.section-5 .doctor {
+		width: 100%;
+		padding-bottom: 60%;
+	}
+	.section-5 .doctor img {
+		width: 50%;
+	}
+	.section-5 .doctor::after {
+		font-size: 15px;
+	}
+	.sojilab::after {
+		content: none;
+	}
+	.sojilab {
+		width: 61%;
+		padding-bottom: 35%;
+	}
+	.section-6::before {
+		content: none;
+	}
+	.section-6 .title {
+		width: 65%;
+	}
+	.section-7 .img {
+		transform: unset;
+		width: 70%;
+		padding-bottom: 45%;
+		margin: auto;
+	}
+	.section-7 .form {
+		margin: auto;
+		margin-top: 20px;
+	}
+	.section-7 .form form input, .section-7 .form form button{
+		font-size: 18px;
+	}
+	footer .right .social a {
+		width: 15%;
+	}
+	footer .right h6 {
+		padding: 12px 0;
+	}
+	footer .right .app .store img {
+		width: 120px;
+	}
+	footer .right .app .store img:first-child {
+		margin-bottom: 5px;
+	}
+	/* Trang chu */
+
+	/* Cau hoi */
+	.cauhoi-top {
+		padding: 0 50px;
+		padding-top: 50px;
+	}
+	.ask {
+		padding: 0 50px;
+		margin-bottom: 50px;
+	}
+	.ask .ask-item,
+	.ask .answer {
+		padding: 20px;
+	}
+	.cauhoi-top .title h2 {
+		font-size: 24px;
+	}
+	.cauhoi-top .fact .fact-item-1 {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.cauhoi-top .fact .fact-item-2 {
+		margin-left: 0;
+	}
+	.img-bot {
+		padding: 0 30px;
+		margin: 0;
+		margin-bottom: 50px;
+	}
+	/* Cau hoi */
+
+	/* Blog */
+	.blog-top {
+		margin-top: 0;
+	}
+	.box-blog {
+		padding-right: 30px;
+	}
+	.box-des-blog .text-des-blog {
+		line-height: 20px;
+		height: -webkit-fit-content;
+		height: -moz-fit-content;
+		height: fit-content;
+	}
+	.btn-des-blog {
+		padding: 5px 15px;
+	}
+	.recent-blog div {
+		display: none;
+	}
+	.box-content-recent h6 a {
+		font-size: 13px;
+	}
+	.img-recent {
+		height: 60px;
+	}
+	.img-des-blog {
+		height: 180px;
+	}
+	/* Blog */
+
+	/* Chi tiet */
+	.wrapper.detail {
+		padding: 0 30px;
+		margin: 30px 0;
+	}
+	.content-post .text h1 {
+		font-size: 24px;
+		padding-bottom: 15px;
+	}
+	.content-post .text p,
+	.recommend__item .card .card-body p {
+		font-size: 16px;
+	}
+	.link span {
+		font-size: 14px;
+	}
+	.content-post .text h6 {
+		font-size: 18px;
+		padding: 10px 0;
+	}
+	.recommend {
+		margin-top: 30px;
+	}
+	.recommend__item .card .card-body h5 {
+		font-size: 17px;
+	}
+	.recommend .title button {
+		font-size: 18px;
+	}
+	/* Chi tiet */
+}
+@media only screen and (max-width: 576px) {
+	body {
+		padding-top: 80px;
+	}
+	footer {
+		padding: 30px;
+	}
+	footer .left p br {
+		display: none;
+	}
+	footer .mid {
+		margin: 20px 0;
+	}
+	nav.navbar {
+		height: 80px;
+	}
+	.bottom-item {
+		transform: translateX(-100vw);
+	}
+	.in-view {
+		transform: unset;
+		transition: all 1.5s;
+	}
+	.owl-carousel .owl-stage-outer {
+		width: 110vw;
+		margin-left: -90px !important;
+		padding-left: 90px;
+	}
+	.owl-theme .owl-dots .owl-dot {
+		width: 29px;
+	}
+	/* Modal */
+	.modal .modal-dialog .modal-content {
+		width: 95%;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+	/* Modal */
+	/* Trang chu */
+	.section-2,
+	.section-3,
+	.section-4,
+	.section-5,
+	.section-6,
+	.section-7 {
+		padding: 0 30px;
+	}
+	.section-1 {
+		background-position: 75% 0px;
+	}
+	.section-1 .text p {
+		line-height: 22px;
+	}
+	.section-2 .top {
+		transform: translateY(-40px);
+		width: 90%;
+		height: 393px;
+	}
+	.section-2 .top .text {
+		padding-top: 22px;
+	}
+	.section-2 .top .text h5 {
+		font-size: 19px;
+	}
+	.section-3 .section-3-content .left p {
+		font-size: 15px;
+	}
+	.section-4 .section-4-content .item {
+		height: 350px;
+		margin: 0 10px;
+		margin-bottom: 20px;
+	}
+	.section-6 .title {
+		width: 85%;
+	}
+	.section-6 .item .text h6 {
+		margin-bottom: 0;
+	}
+	.section-6 .item .text p {
+		margin-bottom: 26px;
+	}
+	.section-6 .item {
+		height: 348px;
+	}
+	.section-7 .form form input, .section-7 .form form button{
+		font-size: 16px;
+	}
+	.section-7 .form form button{
+		font-size: 18px;
+	}
+	/* Trang chu */
+
+	/* Cau hoi */
+	.cauhoi-top .fact .fact-item {
+		padding: 25px;
+	}
+	.img-bot > div:last-child {
+		display: none;
+	}
+	.cauhoi-top .fact .fact-item-2 {
+		height: -webkit-fit-content;
+		height: -moz-fit-content;
+		height: fit-content;
+	}
+	/* Cau hoi */
+
+	/* Blog */
+	.blog-top .banner {
+		padding-bottom: 36%;
+	}
+	.form-search,
+	.box-categories {
+		display: none;
+	}
+	.nav-right {
+		padding-left: 0;
+	}
+	.box-content-recent h6 a {
+		font-size: 15px;
+	}
+	.blog-top .left .xemthem{
+		width: 40%;
+	}
+	/* Blog */
+
+	/* Chi tiet */
+	.recommend .recommend__item {
+		justify-content: space-between;
+	}
+	.recommend .recommend__item > a:nth-child(odd) {
+		padding-right: 10px;
+	}
+	.recommend .recommend__item > a:nth-child(even) {
+		padding-left: 10px;
+	}
+	.recommend__item .card {
+		width: 100%;
+	}
+	.link {
+		display: block !important;
+	}
+	.link > div:first-child {
+		padding-bottom: 10px;
+	}
+	.link span {
+		margin-right: 15px;
+	}
+	.content-post .text h5 {
+		font-size: 22px;
+	}
+	.content-post .text p,
+	.recommend__item .card .card-body p {
+		font-size: 15px;
+	}
+	.recommend .recommend__item > div {
+		width: 48%;
+	}
+	/* Chi tiet */
+}
+@media only screen and (max-width: 420px) {
+	body {
+		padding-top: 70px;
+	}
+	nav.navbar {
+		height: 70px;
+	}
+	nav.navbar .navbar-collapse ul {
+		padding: 50px;
+	}
+	div.title h3 {
+		font-size: 19px !important;
+	}
+	footer .left > img {
+		width: 111px;
+	}
+	/* Modal */
+	.modal.show .modal-dialog.section-7 {
+		margin-top: 8px;
+	}
+	.modal-content #forms .close {
+		top: 5px;
+		right: 12px;
+		font-size: 30px;
+	}
+	/* Modal */
+	.owl-carousel .owl-stage-outer {
+		width: 117vw;
+	}
+	.owl-theme .owl-dots .owl-dot {
+		width: 22px;
+		height: 10px;
+	}
+	.owl-theme .owl-dots .owl-dot:nth-child(odd) {
+		margin: 0;
+	}
+	.owl-theme .owl-dots .owl-dot:nth-child(even) {
+		margin: 0 10px;
+	}
+	/* Trang chu */
+	nav.navbar .navbar-collapse ul #dathang-2{
+		display: block;
+	}
+	nav.navbar .navbar-collapse ul #dathang-1{
+		display: none;
+	}
+	.section-2,
+	.section-3,
+	.section-4,
+	.section-5,
+	.section-6,
+	.section-7,
+	.section-1 .text {
+		padding: 0 20px;
+	}
+	.section-1 {
+		height: 375px;
+	}
+	.section-1 .section-1-text {
+		transform: translateY(0);
+		background-color: rgba(255, 255, 255, 0.7);
+		padding-top: 40px;
+	}
+	.section-2 .top {
+		width: 100%;
+	}
+	.section-2 .top .text {
+		padding: 0 20px;
+		padding-top: 20px;
+		width: 100%;
+	}
+	.section-3 .title {
+		padding: 20px 0;
+	}
+	.section-3 .title span {
+		white-space: nowrap;
+	}
+	.section-3 .section-3-content .left p {
+		line-height: 20px;
+	}
+	.section-3 .section-3-content .left .text-1::before {
+		top: -9px;
+		left: -15px;
+		width: 50px;
+		height: 73%;
+	}
+	.section-3 .section-3-content .left .text-2::after {
+		width: 67px;
+		height: 68%;
+		bottom: 10px;
+		right: -11px;
+	}
+	.section-4 .title h3 {
+		line-height: 1.2;
+	}
+	.section-4 .section-4-content .item {
+		margin: 0;
+		margin-bottom: 20px;
+		padding: 10px;
+		height: -webkit-fit-content;
+		height: -moz-fit-content;
+		height: fit-content;
+	}
+	.section-5.gioithieu {
+		margin-top: 0;
+		margin-bottom: 50px;
+	}
+	.sojilab {
+		width: 73%;
+		padding-bottom: 42%;
+	}
+	.section-6 .title {
+		width: 85%;
+	}
+	.section-6 .title {
+		width: 100%;
+	}
+	.section-6 .item {
+		padding: 25px;
+		padding-top: 0;
+		margin: 45px 0px 35px 0px;
+		min-height: -webkit-fit-content;
+		min-height: -moz-fit-content;
+		min-height: fit-content;
+		height: -webkit-fit-content;
+		height: -moz-fit-content;
+		height: fit-content;
+	}
+
+	.section-6 .item .text p {
+		line-height: 21px;
+	}
+	.section-6 .item .text h6 {
+		bottom: 20px;
+		right: 10px;
+	}
+	.section-7 .img {
+		width: 100%;
+		padding-bottom: 65%;
+	}
+	.section-7 .form {
+		width: 100%;
+		padding: 20px;
+	}
+	.section-7 .form .sale .right {
+		padding: 5px 20px;
+	}
+	.section-7 .form .sale .left p {
+		font-size: 20px;
+	}
+	.section-7 .form .sale .right p {
+		font-size: 24px;
+	}
+	.section-7 .form form input {
+		width: 100%;
+		height: 55px;
+	}
+	.section-7 .form form button {
+		margin-top: 20px;
+		height: 55px;
+		font-size: 20px;
+	}
+	/* Trang chu */
+
+	/* Cau hoi */
+	.cauhoi-top {
+		padding: 0 20px;
+		padding-top: 20px;
+	}
+	.cauhoi-top .title h2 {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.ask,
+	.img-bot {
+		padding: 0 20px;
+		margin-bottom: 20px;
+	}
+	.img-bot > div {
+		padding: 0;
+	}
+	/* Cau hoi */
+
+	/* Blog */
+	.blog-top {
+		padding: 0 20px;
+	}
+	.blog-top .banner {
+		padding-bottom: 48%;
+	}
+	.blog-top .left h5 {
+		font-size: 20px;
+	}
+	.blog-bot {
+		padding: 20px;
+	}
+	.box-blog,
+	.img-des-blog {
+		padding-right: 0;
+	}
+	.img-des-blog {
+		height: 225px;
+	}
+	/* Blog */
+
+	/* Chi tiet blog */
+	.recommend .title p {
+		margin-bottom: 0;
+		font-size: 19px;
+	}
+	.recommend .title a {
+		font-size: 17px;
+	}
+	.recommend .recommend__item > a {
+		padding: unset !important;
+	}
+	/* Chi tiet blog */
+}
+@media only screen and (max-width: 375px) {
+	body {
+		padding-top: 60px;
+	}
+	nav.navbar {
+		height: 60px;
+	}
+	nav.navbar .navbar-collapse ul li a.active,
+	nav.navbar .navbar-collapse ul .dathang {
+		font-size: 18px;
+	}
+	.navbar-light .navbar-brand img {
+		width: 85px;
+	}
+	.modal .section-7 .form h6 {
+		font-size: 28px !important;
+	}
+	.modal-content #forms .close {
+		top: 5px;
+		right: 12px;
+		font-size: 30px;
+	}
+	div.title h3 {
+		font-size: 18px !important;
+	}
+	.section-1 .text p {
+		margin-bottom: 5px;
+	}
+	.section-2 .top .text {
+		padding: 0px 15px;
+		padding-top: 15px;
+	}
+	.section-2 .top .text h5 {
+		font-size: 18px;
+	}
+	.section-2 .top img {
+		bottom: -22px;
+	}
+	.section-4 .section-4-content .item {
+		margin: 0;
+		margin-bottom: 16px;
+	}
+	.section-6 .item {
+		margin: 50px 0 !important;
+		min-height: 1px !important;
+		height: 240px;
+	}
+	.section-6 .title p {
+		font-size: 17px;
+		line-height: 1.3;
+	}
+	.link .blog {
+		white-space: unset;
+	}
+	.content-post .text h5 {
+		font-size: 20px;
+	}
+	.recommend .title p {
+		margin-bottom: 0;
+		font-size: 18px;
+	}
+	.recommend .title a {
+		font-size: 16px;
+	}
+	.recommend .recommend__item > a {
+		padding: unset !important;
+	}
+	.wrapper.detail {
+		padding: 0 20px;
+	}
+	.content-post .text h5 {
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	:root {
+		font-size: 14px;
+	}
+	.modal .modal-dialog .modal-content {
+		width: 100%;
+	}
+	.modal-content #forms .close {
+		top: 10px;
+		right: 15px;
+		font-size: 25px;
+	}
+	footer {
+		padding: 20px 15px;
+	}
+	.section-1 {
+		height: 345px;
+	}
+	.section-1 .section-1-text {
+		padding-top: 20px;
+	}
+	.section-1 .text h2 {
+		font-size: 18px;
+	}
+	.section-1 .text p {
+		line-height: 21px;
+	}
+	.section-2 .top .text p {
+		line-height: 20px;
+	}
+	.section-2 .bottom .bottom-item h6 {
+		margin-bottom: 3px;
+		font-weight: 700;
+	}
+	.section-3 .title {
+		padding: 15px 0;
+	}
+	.section-3 .title h3 span {
+		white-space: unset;
+	}
+	.section-3 .section-3-content .left .text-1::before {
+		content: none;
+	}
+	.section-3 .section-3-content .left .text-2::after {
+		content: none;
+	}
+	.section-4 .title {
+		padding: 16px 0;
+	}
+	.section-5::after {
+		height: 157%;
+	}
+	.section-5 .title h3 {
+		line-height: 1.2;
+	}
+	.section-5 .doctor::after {
+		font-size: 13px;
+	}
+	.section-5 .text {
+		padding-top: 10px;
+	}
+	.section-6 .title h3 {
+		margin-bottom: 3px;
+	}
+	.section-6 .title p {
+		font-size: 16px;
+	}
+	.section-6 .item .text h6 {
+		font-size: 15px !important;
+	}
+	.section-7 .form {
+		padding: 20px 15px;
+	}
+	.section-7 .form h6 {
+		font-size: 26px !important;
+	}
+	.section-7 .form .sale .left p {
+		font-size: 18px;
+	}
+	.section-7 .form .sale .right {
+		padding: 5px 15px;
+	}
+	.section-7 .form .sale .right p {
+		font-size: 20px;
+	}
+	.section-7 .form form input {
+		height: 50px;
+		padding: 15px;
+	}
+	.section-7 .form form button {
+		width: 60%;
+		height: 50px;
+	}
+	/* Cau hoi */
+	.ask .ask-item h6 {
+		letter-spacing: 0;
+	}
+	.ask .ask-item,
+	.ask .answer {
+		padding: 15px;
+	}
+	.ask .answer p,
+	.ask .ask-item p {
+		font-size: 15px;
+		line-height: 23px;
+	}
+	.ask .ask-item h6 {
+		font-size: 15px;
+	}
+	.cauhoi-top .title h2 {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	/* Cau hoi */
+	/* Blog */
+	.blog-top {
+		padding: 0 15px;
+	}
+	.blog-top .left .xemthem {
+		width: 130px;
+	}
+	.blog-bot {
+		padding: 15px;
+	}
+	/* Blog */
+	/* Lien he */
+	.contact_input {
+		height: 50px;
+	}
+	.contact_button {
+		width: 80%;
+	}
+	.contact_content_title {
+		font-size: 22px;
+		font-weight: 700;
+	}
+	.contact_info ul li > div:first-of-type {
+		width: 30px;
+	}
+	/* Lien he */
+}

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Gerphaton Gold</title>
+	<link rel="stylesheet" href="./css/bootstrap.css" />
+	<link rel="stylesheet" href="./css/all.min.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<!-- <div class="container-fluid"> -->
+		<a class="navbar-brand" href="./index.html">
+			<img src="./img/logo-itppharma.png" />
+		</a>
+		<div class="d-flex align-items-center">
+			<div class="dropdown dropdown-mobile">
+				<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+					aria-expanded="false">
+					<img src="./img/vietnam-flag.png" />
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/vietnam-flag.png" />
+							<span>Tiếng Việt</span>
+						</a>
+					</li>
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/germany.svg" />
+							<span>Tiếng Đức</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<button id="default" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars text-dark"></i>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav m-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="./index.html">TRANG CHỦ</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./gioithieu.html">GIỚI THIỆU</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./cauhoi.html">CÂU HỎI THƯỜNG GẶP</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./blog.html">KIẾN THỨC SỨC KHỎE</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./lienhe.html">LIÊN HỆ</a>
+				</li>
+				<a href="" type="button" id="dathang-1" class="dathang" data-toggle="modal"
+					data-target="#exampleModal">Đặt hàng</a>
+				<li>
+					<a href="" id="dathang-2" data-toggle="modal" data-target="#exampleModal">Đặt hàng</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-expanded="false">
+						<img src="./img/vietnam-flag.png" />
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/vietnam-flag.png" />
+								<span>Tiếng Việt</span>
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/germany.svg" />
+								<span>Tiếng Đức</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<button id="shown" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-times text-white"></i>
+			</button>
+		</div>
+		<!-- </div> -->
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog section-7">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">
+							Đặt hàng chính hãng
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div id="forms" class="form modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h6>#Giảm giá 50%</h6>
+						<div class="sale row">
+							<div class="left">
+								<p>1.580.000 đ</p>
+								<p>Giá chỉ còn</p>
+							</div>
+							<div class="right">
+								<p>790.000 đ</p>
+							</div>
+						</div>
+						<form action="">
+							<input type="text" name="name" placeholder="*Tên của bạn" />
+							<input type="text" name="phone" placeholder="*Số điện thoại" onkeypress="validate(event)" />
+							<button type="submit">Đặt hàng</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- End modal -->
+	</nav>
+	<div class="wrapper detail row">
+		<section class="left col-xl-8">
+			<!-- Link -->
+			<div class="link d-flex justify-content-between">
+				<div>
+					<a href=""><span><i class="fas fa-user" aria-hidden="true"></i> Hoàng
+							Trinh</span></a>
+					<span><i class="fas fa-calendar-alt" aria-hidden="true"></i>
+						10/04/2020</span>
+				</div>
+				<div>
+					<a href="./blog.html">
+						<span class="blog"> Blog </span>
+					</a>
+					<i class="fas fa-angle-right px-2"></i>
+					<a href="" class="blog-1">
+						<span class="blog">
+							Giải đáp thắc mắc giảm cân không hiệu quả từ chuyên gia
+						</span>
+					</a>
+				</div>
+			</div>
+			<!-- End link -->
+			<!-- Content post -->
+			<div class="content-post row">
+				<div class="text col-12 text-center">
+					<h1>Top Thực Phẩm Tốt Cho Não Bộ <br> Bạn Đã Biết Chưa?</h1>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry. Lorem Ipsum has been the industry's standard dummy text
+						ever since the 1500s, when an unknown printer took a galley of
+						type and scrambled it to make a type specimen book. It has
+						survived not only five centuries, but also the leap into
+						electronic typesetting, remaining essentially unchanged. It was
+						popularised in the 1960s with the release of Letraset sheets
+						containing Lorem Ipsum passages, and more recently with desktop
+						publishing software like Aldus PageMaker including versions of
+						Lorem Ipsum.
+					</p>
+					<h6># Why do we use it?</h6>
+					<p>
+						It is a long established fact that a reader will be distracted by
+						the readable content of a page when looking at its layout. The
+						point of using Lorem Ipsum is that it has a more-or-less normal
+						distribution of letters, as opposed to using 'Content here,
+						content here', making it look like readable English. Many desktop
+						publishing packages and web page editors now use Lorem Ipsum as
+						their default model text, and a search for 'lorem ipsum' will
+						uncover many web sites still in their infancy. Various versions
+						have evolved over the years, sometimes by accident, sometimes on
+						purpose (injected humour and the like).
+					</p>
+					<div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 m-auto">
+						<img src="./img/hoa-qua.png" width="100%" style="object-fit: cover" />
+					</div>
+
+					<h6># Where does it come from?</h6>
+					<p>
+						Contrary to popular belief, Lorem Ipsum is not simply random text.
+						It has roots in a piece of classical Latin literature from 45 BC,
+						making it over 2000 years old. Richard McClintock, a Latin
+						professor at Hampden-Sydney College in Virginia, looked up one of
+						the more obscure Latin words, consectetur, from a Lorem Ipsum
+						passage, and going through the cites of the word in classical
+						literature, discovered the undoubtable source. Lorem Ipsum comes
+						from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+						Malorum" (The Extremes of Good and Evil) by Cicero, written in 45
+						BC. This book is a treatise on the theory of ethics, very popular
+						during the Renaissance. The first line of Lorem Ipsum, "Lorem
+						ipsum dolor sit amet..", comes from a line in section 1.10.32.
+					</p>
+					<div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 m-auto">
+						<img src="./img/hoa-qua-2.png" width="100%" style="object-fit: cover" />
+					</div>
+
+					<p>
+						The standard chunk of Lorem Ipsum used since the 1500s is
+						reproduced below for those interested. Sections 1.10.32 and
+						1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+						reproduced in their exact original form, accompanied by English
+						versions from the 1914 translation by H. Rackham.
+					</p>
+					<h6>#The standard Lorem Ipsum passage, used since the 1500s</h6>
+					<p>
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+						enim ad minim veniam, quis nostrud exercitation ullamco laboris
+						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+						reprehenderit in voluptate velit esse cillum dolore eu fugiat
+						nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+						sunt in culpa qui officia deserunt mollit anim id est laborum."
+					</p>
+					<br />
+					<p class="span">
+						Section 1.10.32 of "de Finibus Bonorum et Malorum", written by
+						Cicero in 45 BC
+					</p>
+					<p>
+						"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+						accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+						quae ab illo inventore veritatis et quasi architecto beatae vitae
+						dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+						aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+						eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+						est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+						velit, sed quia non numquam eius modi tempora incidunt ut labore
+						et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+						veniam, quis nostrum exercitationem ullam corporis suscipit
+						laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+						vel eum iure reprehenderit qui in ea voluptate velit esse quam
+						nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+						voluptas nulla pariatur?"
+					</p>
+				</div>
+			</div>
+			<!-- End content post -->
+
+			<!-- Recommend -->
+			<div class="recommend">
+				<div class="title d-flex align-items-center justify-content-between">
+					<p>TIN LIÊN QUAN</p>
+					<a href="">XEM THÊM</a>
+				</div>
+				<hr />
+				<div class="recommend__item row">
+					<a href="./chitiet.html" class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="card">
+							<div class="card-image">
+								<img src="./img/sanpham.png" class="card-img-top" alt="..." />
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">
+									Tips for Preparing Skin For Skin With Natural Raw Materials
+								</h5>
+								<p class="card-text">
+									We value our craft, have a deep passion for progression, and
+									exist to solve challenges for brands we believe in brands we
+									believe in exist to solve challenges. o solve challenges for
+									brands we believe in brands we believe in exist to solve
+									challenges.
+								</p>
+							</div>
+						</div>
+					</a>
+					<a href="./chitiet.html" class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="card">
+							<div class="card-image">
+								<img src="./img/sanpham.png" class="card-img-top" alt="..." />
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">
+									Tips for Preparing Skin For Skin With Natural Raw Materials
+								</h5>
+								<p class="card-text">
+									We value our craft, have a deep passion for progression, and
+									exist to solve challenges for brands we believe in brands we
+									believe in.
+								</p>
+							</div>
+						</div>
+					</a>
+					<a href="./chitiet.html" class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="card">
+							<div class="card-image">
+								<img src="./img/sanpham.png" class="card-img-top" alt="..." />
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">
+									Tips for Preparing Skin For Skin With Natural Raw Materials
+								</h5>
+								<p class="card-text">
+									We value our craft, have a deep passion for progression, and
+									exist to solve challenges for brands we believe in brands we
+									believe in. We value our craft, have a deep passion for
+									progression, and exist to solve challenges for brands we
+									believe in brands we believe in. We value our craft, have a
+									deep passion for progression, and exist to solve challenges
+									for brands we believe in brands we believe in
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- End recommend -->
+		</section>
+		<section class="right col-4">
+			<!-- Side bar -->
+			<div class="side-bar col-12 sticky-top">
+				<div class="card">
+					<img src="./img/sanpham.png" class="card-img-top" alt="..." style="object-fit: cover" />
+					<div class="card-body">
+						<h5 class="card-title text-center">GERPHATON GOLD</h5>
+						<div class="card-text d-flex align-items-end justify-content-around">
+							<p class="left">
+								<span>1.580.000 VNĐ</span> <br />
+								GIÁ CHỈ CÒN
+							</p>
+							<p class="right">790.000 VNĐ</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End side bar -->
+		</section>
+	</div>
+	<footer class="row">
+		<div class="col-xxl-4 col-xl-4 col-lg-3 col-md-6 col-12">
+			<div class="left">
+				<a href="./index.html">
+					<img src="./img/logo-itppharma.png" />
+				</a>
+				<p>
+					Phân phối độc quyền bởi<br />
+					Công ty TNHH Soji Labs
+				</p>
+			</div>
+		</div>
+		<div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-12">
+			<div class="mid">
+				<h6>Liên hệ</h6>
+				<a href="tel:02873070789">
+					<div class="mid-item row">
+						<span><i class="fas fa-phone-alt"></i></span>
+						<p>02873070789</p>
+					</div>
+				</a>
+				<a href="mailto:ecom@soji.asia" class="mid-item row">
+					<span><i class="fas fa-envelope"></i></span>
+					<p>ecom@soji.asia</p>
+				</a>
+				<a href="https://gerphatongold.com" class="mid-item row">
+					<span><i class="fas fa-globe-asia"></i></span>
+					<p>https://gerphatongold.com</p>
+				</a>
+				<a href="" class="disabled">
+					<div class="mid-item row">
+						<span><i class="fas fa-map-marker-alt"></i></span>
+						<p>199 Điện Biên Phủ, P.15, Q.Bình Thạnh</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-12">
+			<div class="right row justify-content-between mt-3-md">
+				<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+					<h6>Kết nối với chúng tôi</h6>
+					<div class="social row">
+						<a href="">
+							<img src="./img/facebook.svg" />
+						</a>
+						<a href="">
+							<img src="./img/youtube.svg" />
+						</a>
+						<a href="">
+							<img src="./img/instagram.svg" />
+						</a>
+						<a href="">
+							<img src="./img/twitter.svg" />
+						</a>
+						<a href="">
+							<img src="./img/whatsapp.svg" />
+						</a>
+					</div>
+				</div>
+				<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+					<h6>Tải mobile apps</h6>
+					<div class="app row">
+						<img src="./img/QR-code.png" />
+						<div class="store">
+							<a href="">
+								<img src="./img/google-play.png" />
+							</a>
+							<a href="">
+								<img src="./img/app-store.png" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap5.js"></script>
+<script src="./js/main.js"></script>
+
+</html>
